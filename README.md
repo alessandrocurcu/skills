@@ -18,19 +18,13 @@ pnpx skills add alessandrocurcu/skills --skill='*' -g
 - Modifica [meta.ts](./meta.ts) per aggiungere un nuovo vendor o una nuova skill scritta a mano
 
 ## Comandi
-┌────────────────────┬─────────────────────────────────┐
-│      Comando       │             Cosa fa             │
-├────────────────────┼─────────────────────────────────┤
-│ pnpm start         │ Menu interattivo                │
-├────────────────────┼─────────────────────────────────┤
-│ pnpm start init    │ Aggiunge submoduli vendor       │
-├────────────────────┼─────────────────────────────────┤
-│ pnpm start sync    │ Aggiorna e copia le skill       │
-├────────────────────┼─────────────────────────────────┤
-│ pnpm start check   │ Verifica aggiornamenti upstream  │
-├────────────────────┼─────────────────────────────────┤
-│ pnpm start cleanup │ Rimuove orfani                  │
-└────────────────────┴─────────────────────────────────┘
+| Comando              | Cosa fa                          |
+| -------------------- | -------------------------------- |
+| `pnpm start`         | Menu interattivo                 |
+| `pnpm start init`    | Aggiunge submoduli vendor        |
+| `pnpm start sync`    | Aggiorna e copia le skill        |
+| `pnpm start check`   | Verifica aggiornamenti upstream  |
+| `pnpm start cleanup` | Rimuove orfani                   |
 - init — Aggiunge vendor come submodules git
   - Legge meta.ts per sapere quali vendor esistono
   - Se trova submodules non in meta.ts, propone di rimuoverli
