@@ -1,7 +1,9 @@
 {
+  "name": "skills",
   "type": "module",
-  "private": true,
-  "packageManager": "pnpm@10.32.1",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.24.0",
+  "author": "Alessandro Curcu <aleqrq@gmail.com>",
   "scripts": {
     "start": "node scripts/cli.ts",
     "prepare": "git submodule update --init --recursive"
