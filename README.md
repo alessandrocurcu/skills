@@ -1,3 +1,5 @@
+![version](https://img.shields.io/github/package-json/v/alessandrocurcu/skills)
+
 # Le skills di Ale QRQ (Curcu)
 Una lista di [skill agentiche](https://agentskills.io/home), curata secondo le mie preferenze. Alcune le ho create io, molte sono di autori come Addy Osmani, Debbie O'Brien, Anthony Fu e altri. Nella sua forma generale questo proggetto è praticamente un fork della repository [skills](https://github.com/antfu/skills/tree/main?tab=readme-ov-file) di Anthony Fu, adattato alle mie esigenze
 
