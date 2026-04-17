@@ -18,6 +18,8 @@ pnpx skills add alessandrocurcu/skills --skill='*' -g
 ## Come funziona
 - [meta.ts](./meta.ts) è il file di configurazione centrale: definisce quali vendor esistono, le loro URL, e il mapping nomeSkillVendor → nomeSkillLocale.
 - Modifica [meta.ts](./meta.ts) per aggiungere un nuovo vendor o una nuova skill scritta a mano
+- Usa `pnpm start init` per aggiungere i submodule
+- uSA `pnpm start sync`per copiare le skill in locale
 
 ## Comandi
 | Comando              | Cosa fa                          |
@@ -25,8 +27,10 @@ pnpx skills add alessandrocurcu/skills --skill='*' -g
 | `pnpm start`         | Menu interattivo                 |
 | `pnpm start init`    | Aggiunge submoduli vendor        |
 | `pnpm start sync`    | Aggiorna e copia le skill        |
-| `pnpm start check`   | Verifica aggiornamenti upstream  |
+| `pnpm start check`   | Verifica aggiornamenti upstream   |
 | `pnpm start cleanup` | Rimuove orfani                   |
+
+## Spiegazione
 - init — Aggiunge vendor come submodules git
   - Legge meta.ts per sapere quali vendor esistono
   - Se trova submodules non in meta.ts, propone di rimuoverli

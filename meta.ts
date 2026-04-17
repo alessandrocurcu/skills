@@ -10,7 +10,17 @@ export interface VendorSkillMeta {
  * Le skill vengono copiate da vendor/<nome>/skills/<source> a skills/<output>.
  */
 export const vendors: Record<string, VendorSkillMeta> = {
-  'addyosmani': {
+  anthonyfu: {
+    source: 'https://github.com/antfu/skills',
+    skills: {
+      'vitest': 'vitest',
+      'vue-best-practices': 'vue-best-practices',
+      'vue-router-best-practices': 'vue-router-best-practices',
+      'vueuse-functions': 'vueuse-functions',
+      'web-design-guidelines': 'web-design-guidelines',
+    },
+  },
+  addyosmani: {
     source: 'https://github.com/addyosmani/agent-skills',
     skills: {
       'idea-refine': 'idea-refine',

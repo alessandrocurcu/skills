@@ -1,3 +1,6 @@
 [submodule "vendor/addyosmani"]
 	path = vendor/addyosmani
 	url = https://github.com/addyosmani/agent-skills
+[submodule "vendor/anthonyfu"]
+	path = vendor/anthonyfu
+	url = https://github.com/antfu/skills
