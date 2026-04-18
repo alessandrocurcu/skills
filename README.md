@@ -7,12 +7,12 @@ Una lista di [skill agentiche](https://agentskills.io/home), curata secondo le m
 L'installazione si fa con lo strumento [skills](https://github.com/vercel-labs/skills) di Vercel
 
 ```bash
-pnpx skills add alessandrocurcu/skills --skill='*'
+pnpm dlx skills add alessandrocurcu/skills --skill='*'
 ```
 o per installarle globalmente
 
 ```bash
-pnpx skills add alessandrocurcu/skills --skill='*' -g
+pnpm dlx skills add alessandrocurcu/skills --skill='*' -g
 ```
 
 ## Come funziona
