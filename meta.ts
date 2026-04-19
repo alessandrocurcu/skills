@@ -20,6 +20,14 @@ export const vendors: Record<string, VendorSkillMeta> = {
       'web-design-guidelines': 'web-design-guidelines',
     },
   },
+  mcollina: {
+    source: 'https://github.com/mcollina/skills',
+    skills: {
+      'fastify': 'fastify',
+      'typescript-magician': 'typescript-magician',
+      'node': 'node',
+    },
+  },
   addyosmani: {
     source: 'https://github.com/addyosmani/agent-skills',
     skills: {

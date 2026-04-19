@@ -1,5 +1,5 @@
 # Sync Info
 
 - **Source:** `vendor/addyosmani/skills/debugging-and-error-recovery`
-- **Git SHA:** `9534f44c5448086fcc0046f9d83752c654c81930`
-- **Synced:** 2026-04-17
+- **Git SHA:** `44dac80216da709913fb410f632a65547866346f`
+- **Synced:** 2026-04-19
