@@ -21,7 +21,7 @@ pnpm dlx skills add alessandrocurcu/skills --skill='*' -g
 - [meta.ts](./meta.ts) è il file di configurazione centrale: definisce quali vendor esistono, le loro URL, e il mapping nomeSkillVendor → nomeSkillLocale.
 - Modifica [meta.ts](./meta.ts) per aggiungere un nuovo vendor o una nuova skill scritta a mano
 - Usa `pnpm start init` per aggiungere i submodule
-- uSA `pnpm start sync`per copiare le skill in locale
+- Usa `pnpm start sync`per copiare le skill in locale
 
 ## Comandi
 | Comando              | Cosa fa                          |
