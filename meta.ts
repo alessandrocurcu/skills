@@ -61,4 +61,5 @@ export const vendors: Record<string, VendorSkillMeta> = {
  */
 export const manual = [
   'scrivi-bene',
+  'grill-me',
 ]
