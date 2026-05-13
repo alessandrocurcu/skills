@@ -28,6 +28,12 @@ export const vendors: Record<string, VendorSkillMeta> = {
       'node': 'node',
     },
   },
+  agentbrowser: {
+    source: 'https://github.com/vercel-labs/agent-browser',
+    skills: {
+      'agent-browser': 'agent-browser',
+    },
+  },
   addyosmani: {
     source: 'https://github.com/addyosmani/agent-skills',
     skills: {
