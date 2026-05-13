@@ -1,5 +1,5 @@
 # Sync Info
 
 - **Source:** `vendor/addyosmani/skills/security-and-hardening`
-- **Git SHA:** `f504276d8e074912f4763e6163b436a4ffc74d0d`
-- **Synced:** 2026-05-03
+- **Git SHA:** `3ff4b518b3cd3077ca27cf883aa21d21faf53802`
+- **Synced:** 2026-05-13
