@@ -51,3 +51,13 @@ pnpm dlx skills add alessandrocurcu/skills --skill='*' -g
 - cleanup — Rimuove ciò che non è più in meta.ts
   - Submodules extra (via git submodule deinit + git rm)
   - Cartelle in skills/ non dichiarate né come vendor né come manual
+
+
+## Note circa agent-browser
+- la skill per funzionare deve aver installato agent-borwser globalmente
+```bash
+pnpm add -g agent-browser
+agent-browser --version
+agent-browser install # scarica Chrome
+agent-browser doctor
+```
