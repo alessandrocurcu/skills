@@ -34,6 +34,13 @@ export const vendors: Record<string, VendorSkillMeta> = {
       'agent-browser': 'agent-browser',
     },
   },
+  anthropics: {
+    official: true,
+    source: 'https://github.com/anthropics/skills',
+    skills: {
+      'skill-creator': 'skill-creator',
+    },
+  },
   addyosmani: {
     source: 'https://github.com/addyosmani/agent-skills',
     skills: {

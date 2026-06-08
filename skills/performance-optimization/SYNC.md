@@ -1,5 +1,5 @@
 # Sync Info
 
 - **Source:** `vendor/addyosmani/skills/performance-optimization`
-- **Git SHA:** `539a78574773fe7e46cf8bbf9c67bcc9db63c335`
-- **Synced:** 2026-05-22
+- **Git SHA:** `c076972e2626fe2acc30b00a6c7240d4c5fb786a`
+- **Synced:** 2026-06-08
