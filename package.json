@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.0.0",
-    "@clack/prompts": "^1.4.0",
-    "@types/node": "^25.9.1",
-    "eslint": "^10.4.0",
+    "@clack/prompts": "^1.5.1",
+    "@types/node": "^25.9.3",
+    "eslint": "^10.5.0",
     "typescript": "^6.0.3"
   }
 }
